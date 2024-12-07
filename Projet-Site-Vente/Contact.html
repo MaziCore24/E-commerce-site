@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/Contact.css">
+</head>
+<body>
+  <header>
+    <nav style="display: flex; align-items: center; justify-content: space-between;">
+        <img src="images/logo.png" alt="Company Logo" style="margin-right: 2rem;">
+        <ul style="margin: 0 auto;">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Products</a>
+                <div class="dropdown-content">
+                    <a href="pc.html">PCs</a>
+                    <a href="Laptops.html">Laptops</a>
+                    <a href="Monitors.html">Monitors</a>
+                    <a href="motherboards.html">Motherboards</a>
+                    <a href="Keyboards.html">Keyboards</a>      
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about-us.html">About</a></li>
+        </ul>
+        <img src="images/shop.png" alt="ShopIcon">
+    </nav>
+</header>
+    <main>
+        <section class="contact-form">
+            <h1>Contact Us</h1>
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <section class="location">
+            <h2>Visit Us</h2>
+            <iframe src="https://maps.google.com/maps?output=embed&q=Tunisia&z=6" 
+                    width="100%" height="400" frameborder="0">
+            </iframe>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>More Information</h3>
+                <p>Email: BuildmasterTN@gmail.com</p>
+                <p>Phone: (+216)99 888 444</p>
+                <p>Address: Nabeul-Mrezgua</p>
+            </div>
+
+            <div class="categories">
+                <h3>Categories</h3>
+                <ul>
+                    <li>Personal Computers</li>
+                    <li>Laptops</li>
+                    <li>PC Components</li>
+                    <li>Accessories</li>
+                </ul>
+            </div>
+
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+        <div class="back-to-top">
+            <a href="#">Return to Top</a>
+        </div>
+    </footer>
+</body>
+</html>
